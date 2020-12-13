@@ -21,7 +21,7 @@ def isWin(userInput, computer):
         return True
     return False
 def askUser():
-    user = input("Enter your option between 'r', 's', 'p' >>>>>>").lower()
+    user = input("Enter your option between 'r', 's', 'p' >>>>>> ").lower()
     return user
 
 play()

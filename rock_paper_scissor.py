@@ -9,8 +9,8 @@ def play():
     computer = random.choice(['r', 's', 'p'])
     
     if(userInput == computer):
-        print("You and computer has the same entry play again!")
-        play()
+        print("It\'s a tie!")
+        askUser()
     
     if isWin(userInput, computer):
         print('Yay! you have won the game!')
